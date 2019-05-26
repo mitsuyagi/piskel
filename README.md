@@ -3,22 +3,19 @@ Piskel
 
 [![Travis Status](https://api.travis-ci.org/piskelapp/piskel.png?branch=master)](https://travis-ci.org/piskelapp/piskel) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](https://gruntjs.com/)
 
-Piskelは使いやすいスプライトエディタです。 それはゲームのスプライト、アニメーション、ピクセルアートを作成するために使用することができます...
-これは** [piskelapp.com]（https://www.piskelapp.com）**で使用されているエディタです。
-
-Piskel is an easy-to-use sprite editor. It can be used to create game sprites, animations, pixel-art...
-It is the editor used in **[piskelapp.com](https://www.piskelapp.com)**.
+Piskelは使いやすいスプライトエディタです。
+このプロジェクトは日本語環境、タッチデバイスで使用するためにPiskelを拡張しています。
 
 <img
   src="https://screenletstore.appspot.com/img/95aaa0f0-37a4-11e7-a652-7b8128ce3e3b.png"
   title="Piskel editor screenshot"
   width="500">
 
-## About Piskel
+## Piskelについて
 
 ### Built with
 
-The Piskel editor is purely built in **JavaScript, HTML and CSS**.
+Piskelエディタは**JavaScript, HTML, CSSのみ**.で構築されています。
 
 We also use the following **libraries** :
 * [spectrum](https://github.com/bgrins/spectrum) : awesome standalone colorpicker

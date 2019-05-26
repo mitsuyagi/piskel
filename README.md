@@ -1,8 +1,6 @@
 Piskel
 ======
 
-[![Travis Status](https://api.travis-ci.org/piskelapp/piskel.png?branch=master)](https://travis-ci.org/piskelapp/piskel) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](https://gruntjs.com/)
-
 Piskelは使いやすいスプライトエディタです。
 
 このプロジェクトは本来サポートされていないモバイルデバイスでPiskelを使用するためにフォークされました。
@@ -14,11 +12,9 @@ Piskelは使いやすいスプライトエディタです。
 
 ## Piskelについて
 
-### Built with
-
 Piskelエディタは**JavaScript, HTML, CSSのみ**で構築されています。
 
-Piskelを使うためには以下の**ライブラリ**が必要です :
+Piskelを使うためには**以下のライブラリが必要です** :
 * [spectrum](https://github.com/bgrins/spectrum) : スタンドアロンのカラーピッカーです。
 * [gifjs](https://jnordberg.github.io/gif.js/) : Javascriptでアニメーションgifを作成します。
 * [supergif](https://github.com/buzzfeed/libgif-js) : gifを解析して読み込むためのライブラリです。
@@ -28,12 +24,6 @@ Piskelを使うためには以下の**ライブラリ**が必要です :
 * [bootstrap-tooltip](https://getbootstrap.com/javascript/#tooltips) : ツールチップを提供するライブラリです。
 
 また、Piskelで使用される**アイコン**は[Noun Project](https://thenounproject.com/)から提供されています。 :
-* Folder by Simple Icons from The Noun Project
-* (and probably one or two others)
-
-### Offline builds
-
-Offline builds are available. More details in the [dedicated wiki page](https://github.com/piskelapp/piskel/wiki/Desktop-applications).
 
 * **Development** : Have a look at the [wiki](https://github.com/piskelapp/piskel/wiki) to set up the development environment
 

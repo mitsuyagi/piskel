@@ -4,7 +4,8 @@ Piskel
 [![Travis Status](https://api.travis-ci.org/piskelapp/piskel.png?branch=master)](https://travis-ci.org/piskelapp/piskel) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](https://gruntjs.com/)
 
 Piskelは使いやすいスプライトエディタです。
-このプロジェクトは日本語環境、タッチデバイスで使用するためにPiskelを拡張しています。
+
+このプロジェクトは本来サポートされていないモバイルデバイスでPiskelを使用するためにフォークされました。
 
 <img
   src="https://screenletstore.appspot.com/img/95aaa0f0-37a4-11e7-a652-7b8128ce3e3b.png"
@@ -15,42 +16,25 @@ Piskelは使いやすいスプライトエディタです。
 
 ### Built with
 
-Piskelエディタは**JavaScript, HTML, CSSのみ**.で構築されています。
+Piskelエディタは**JavaScript, HTML, CSSのみ**で構築されています。
 
-We also use the following **libraries** :
-* [spectrum](https://github.com/bgrins/spectrum) : awesome standalone colorpicker
-* [gifjs](https://jnordberg.github.io/gif.js/) : generate animated GIFs in javascript, using webworkers
-* [supergif](https://github.com/buzzfeed/libgif-js) : modified version of SuperGif to parse and import GIFs
-* [jszip](https://github.com/Stuk/jszip) : create, read and edit .zip files with Javascript
+Piskelを使うためには以下の**ライブラリ**が必要です :
+* [spectrum](https://github.com/bgrins/spectrum) : スタンドアロンのカラーピッカーです。
+* [gifjs](https://jnordberg.github.io/gif.js/) : Javascriptでアニメーションgifを作成します。
+* [supergif](https://github.com/buzzfeed/libgif-js) : gifを解析して読み込むためのライブラリです。
+* [jszip](https://github.com/Stuk/jszip) : zipファイルの作成や編集をするライブラリです。
 * [canvas-toBlob](https://github.com/eligrey/canvas-toBlob.js/) : shim for canvas toBlob
-* [jquery](https://jquery.com/) : used sporadically in the application
-* [bootstrap-tooltip](https://getbootstrap.com/javascript/#tooltips) : nice tooltips
+* [jquery](https://jquery.com/) : さまざまなアプリで使用されるライブラリです。
+* [bootstrap-tooltip](https://getbootstrap.com/javascript/#tooltips) : ツールチップを提供するライブラリです。
 
-As well as some **icons** from the [Noun Project](https://thenounproject.com/) :
+また、Piskelで使用される**アイコン**は[Noun Project](https://thenounproject.com/)から提供されています。 :
 * Folder by Simple Icons from The Noun Project
 * (and probably one or two others)
-
-### Browser Support
-
-Piskel supports the following browsers:
-* **Chrome** (latest)
-* **Firefox** (latest)
-* **Edge** (latest)
-* **Internet Explorer** 11
-
-### Mobile/Tablets
-
-There is no support for mobile.
 
 ### Offline builds
 
 Offline builds are available. More details in the [dedicated wiki page](https://github.com/piskelapp/piskel/wiki/Desktop-applications).
 
-## Contributing ?
-
-Help is always welcome !
-
-* **Issues** : Found a problem when using the application, want to request a feature, [open an issue](https://github.com/piskelapp/piskel/issues).
 * **Development** : Have a look at the [wiki](https://github.com/piskelapp/piskel/wiki) to set up the development environment
 
 ## License
